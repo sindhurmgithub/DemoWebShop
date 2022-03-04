@@ -1,5 +1,7 @@
 package automationScripts;
 
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLib.BaseClass;
@@ -23,6 +25,8 @@ public class TC_001ComputersTest extends BaseClass {
 		//Desktops
 		desktops=new ComputerPage(driver);
 		desktops.getClickOnDesktops().click();
+		Assert.assertEquals(driver.getTitle(),"Demo Web Shop. Desktops", "Desktops page is not displayed");
+		Reporter.log("Desktops page is displayed",true);
 		
 		//Sort by dropdown
 		sortby=new ComputerPage(driver);
@@ -50,6 +54,7 @@ public class TC_001ComputersTest extends BaseClass {
 		listoption.getClickOnListOption().click();
 	
 	  
+		
 		//click on add to cart
 		addtocart=new ComputerPage(driver);
 		addtocart.getClickOnAddToCart().click();

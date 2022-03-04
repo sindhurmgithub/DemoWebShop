@@ -14,15 +14,18 @@
       <![CDATA[Successfully logged in to the application]]>
     </line>
     <line>
+      <![CDATA[Desktops page is displayed]]>
+    </line>
+    <line>
       <![CDATA[Successfully closed the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-03-04T06:57:16 IST" name="Default suite" finished-at="2022-03-04T06:57:43 IST" duration-ms="26850">
+  <suite started-at="2022-03-04T08:03:26 IST" name="Default suite" finished-at="2022-03-04T08:03:49 IST" duration-ms="23015">
     <groups>
     </groups>
-    <test started-at="2022-03-04T06:57:16 IST" name="Default test" finished-at="2022-03-04T06:57:43 IST" duration-ms="26850">
-      <class name="automationScripts.TC_003ComputersTest">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:automationScripts.TC_003ComputersTest@1f97cf0d]" started-at="2022-03-04T06:57:16 IST" name="beforeClass" finished-at="2022-03-04T06:57:19 IST" duration-ms="3039" status="PASS">
+    <test started-at="2022-03-04T08:03:26 IST" name="Default test" finished-at="2022-03-04T08:03:49 IST" duration-ms="23015">
+      <class name="automationScripts.TC_001ComputersTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:automationScripts.TC_001ComputersTest@1f97cf0d]" started-at="2022-03-04T08:03:26 IST" name="beforeClass" finished-at="2022-03-04T08:03:30 IST" duration-ms="3593" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +42,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:automationScripts.TC_003ComputersTest@1f97cf0d]" started-at="2022-03-04T06:57:19 IST" name="beforeMethod" finished-at="2022-03-04T06:57:30 IST" duration-ms="11119" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:automationScripts.TC_001ComputersTest@1f97cf0d]" started-at="2022-03-04T08:03:30 IST" name="beforeMethod" finished-at="2022-03-04T08:03:40 IST" duration-ms="10295" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Page  displayed successfully]]>
@@ -49,18 +52,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="accessories()[pri:0, instance:automationScripts.TC_003ComputersTest@1f97cf0d]" started-at="2022-03-04T06:57:30 IST" name="accessories" finished-at="2022-03-04T06:57:42 IST" duration-ms="11824" status="PASS">
+        <test-method signature="desktops()[pri:0, instance:automationScripts.TC_001ComputersTest@1f97cf0d]" started-at="2022-03-04T08:03:40 IST" name="desktops" finished-at="2022-03-04T08:03:49 IST" duration-ms="8226" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Desktops page is displayed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- accessories -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:automationScripts.TC_003ComputersTest@1f97cf0d]" started-at="2022-03-04T06:57:42 IST" name="afterClass" finished-at="2022-03-04T06:57:43 IST" duration-ms="809" status="PASS">
+        </test-method> <!-- desktops -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:automationScripts.TC_001ComputersTest@1f97cf0d]" started-at="2022-03-04T08:03:49 IST" name="afterClass" finished-at="2022-03-04T08:03:49 IST" duration-ms="841" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfully closed the browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- automationScripts.TC_003ComputersTest -->
+      </class> <!-- automationScripts.TC_001ComputersTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

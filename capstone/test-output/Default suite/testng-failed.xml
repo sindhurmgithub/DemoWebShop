@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationScripts.TC_001RegistrationTest">
+      <class name="automationScripts.TC_001ComputersTest">
         <methods>
           <include name="beforeClass"/>
-          <include name="camera"/>
+          <include name="desktops"/>
           <include name="beforeMethod"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- automationScripts.TC_001RegistrationTest -->
+      </class> <!-- automationScripts.TC_001ComputersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

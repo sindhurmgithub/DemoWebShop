@@ -37,6 +37,8 @@ public class ComputerPage {
 	
 	@FindBy(xpath="//a[text()='Build your own cheap computer']/../../..//input[@value='Add to cart']") private WebElement clickOnAddToCart;
 	
+	@FindBy(xpath = "//p[text()='The product has been added to your ']") private WebElement addCartText;
+	
 	@FindBy(xpath="//a[@class='ico-logout']") private WebElement clickOnLogout;
 	
     @FindBy(xpath="//img[@title='Show products in category Notebooks']") private WebElement clickOnNotebooks;
@@ -108,7 +110,11 @@ public class ComputerPage {
 	public WebElement getClickOnAddToCart() {
 		return clickOnAddToCart;
 					
-			}			
+			}	
+	
+	public WebElement getAddCartText() {
+		return addCartText;
+	}
 					
 				
     public WebElement getClickOnNotebooks() {
