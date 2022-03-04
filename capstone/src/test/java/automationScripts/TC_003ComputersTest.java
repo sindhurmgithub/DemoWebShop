@@ -1,6 +1,11 @@
 package automationScripts;
 
 import org.testng.annotations.Test;
+/***
+ * 
+ * @author Sindhu
+ *
+ */
 
 import genericLib.BaseClass;
 import pomRepo.ComputerPage;

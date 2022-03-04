@@ -1,6 +1,10 @@
 package genericLib;
 
 import java.io.FileInputStream;
+/**
+ * @author Yoitha
+ *
+ */
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;

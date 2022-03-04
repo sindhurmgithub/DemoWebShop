@@ -6,7 +6,11 @@ import genericLib.BaseClass;
 import genericLib.ExcelLib;
 import pomRepo.ComputerPage;
 
-
+/***
+ * 
+ * @author Sindhu
+ *
+ */
 
 public class TC_001ComputersTest extends BaseClass {
 	@Test
@@ -45,10 +49,7 @@ public class TC_001ComputersTest extends BaseClass {
 		listoption=new ComputerPage(driver);
 		listoption.getClickOnListOption().click();
 	
-	   //click on product
-		product=new ComputerPage(driver);
-		product.getClickOnProduct().click();
-		
+	  
 		//click on add to cart
 		addtocart=new ComputerPage(driver);
 		addtocart.getClickOnAddToCart().click();

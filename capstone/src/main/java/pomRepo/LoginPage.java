@@ -5,7 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-;
+/***
+ * 
+ * @author Sindhu
+ *
+ */
 
 public class LoginPage {
 	
@@ -19,6 +23,7 @@ public class LoginPage {
 		@FindBy(linkText="Log in") private WebElement clickOnLoginLink;
 		
 		@FindBy(id="Email") private WebElement emailTextField;
+	//	@FindBy(xpath="//input[@autofocus='autofocus']") private WebElement emailTextField;
 		
 		@FindBy(id="Password") private WebElement passwordTextField;
 		

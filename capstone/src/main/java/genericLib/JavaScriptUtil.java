@@ -1,6 +1,11 @@
 package genericLib;
 
 import org.openqa.selenium.JavascriptExecutor;
+/**
+ * 
+ * @author Sumanth Keshav
+ *
+ */
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 

@@ -1,5 +1,6 @@
 package genericLib;
 
+
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -8,7 +9,11 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
+/***
+ * 
+ * @author Yogitha
+ *
+ */
 public class Generic_Screenshots implements FrameworkConstants{
 	public static void getPhoto(WebDriver driver) {		
 		LocalDateTime systemDate = LocalDateTime.now();

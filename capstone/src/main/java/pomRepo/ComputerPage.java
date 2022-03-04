@@ -4,6 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+/***
+ * 
+ * @author Sindhu
+ *
+ */
 
 public class ComputerPage {
 	
@@ -15,21 +20,35 @@ public class ComputerPage {
 	
 	//Data members or properties
 	@FindBy(partialLinkText="Computers") private WebElement clickOnComputersTab;
+	
 	@FindBy(xpath="//img[@title='Show products in category Desktops']") private WebElement clickOnDesktops;
+	
 	@FindBy(id="products-orderby") private WebElement clickOnSortByDropdown;
+	
 	@FindBy(xpath="//option[text()='Name: Z to A']") private WebElement clickOnZtoAOption;
+	
 	@FindBy(id="products-pagesize") private WebElement clickOnDisplayDropdown;
+	
 	@FindBy(xpath="//option[text()='12']") private WebElement clickOn12Option;
+	
 	@FindBy(id="products-viewmode") private WebElement clickOnViewAsDropdown;
+	
 	@FindBy(xpath="//option[text()='List']") private WebElement clickOnListOption;
-	@FindBy(xpath="//img[@src='http://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg']") private WebElement clickOnProduct;
-	@FindBy(xpath="//input[@data-productid='72']") private WebElement clickOnAddToCart;
+	
+	@FindBy(xpath="//a[text()='Build your own cheap computer']/../../..//input[@value='Add to cart']") private WebElement clickOnAddToCart;
+	
 	@FindBy(xpath="//a[@class='ico-logout']") private WebElement clickOnLogout;
+	
     @FindBy(xpath="//img[@title='Show products in category Notebooks']") private WebElement clickOnNotebooks;
+    
     @FindBy(xpath="//img[@src='http://demowebshop.tricentis.com/content/images/thumbs/0000224_141-inch-laptop_125.png']") private WebElement clickOnNotebookProduct;
+    
     @FindBy(xpath="//input[@class='button-1 add-to-cart-button']") private WebElement clickOnAddToCartOfNotebooks;
+    
     @FindBy(xpath="//img[@title='Show products in category Accessories']") private WebElement clickOnAccessories;
+    
     @FindBy(xpath="//img[@title='Show details for TCP Instructor Led Training']") private WebElement clickOnAccessoriesProduct;
+    
     @FindBy(xpath="//input[@class='button-1 add-to-cart-button']") private WebElement clickOnAddToCartOfAccessories;
     
     //getter methods
@@ -82,14 +101,6 @@ public class ComputerPage {
 		return clickOnListOption;
 			
 			
-		}
-		
-	
-			
-	public WebElement getClickOnProduct() {
-	    return clickOnProduct;
-				
-				
 		}
 			
 	

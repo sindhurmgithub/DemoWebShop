@@ -5,7 +5,11 @@ import org.testng.annotations.Test;
 
 import genericLib.BaseClass;
 import pomRepo.ComputerPage;
-
+/***
+ * 
+ * @author Sindhu
+ *
+ */
 
 public class TC_002ComputersTest extends BaseClass{
 	
